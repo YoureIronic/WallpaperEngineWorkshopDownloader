@@ -34,6 +34,13 @@ Main folder
 
 4. Select the wallpaper engine file path (with folder `\projects\myprojects` included) and click the `Download` button.
 
+## Tutorial Video
+⚠️ MAKE SURE TO USE AN [ADBLOCKER](https://ublockorigin.com/)
+
+This shit is like 200MB and if i embed it the file will die because buzzheavier doesnt allow perm links unless people download the file so you gotta download it.
+
+Video: https://buzzheavier.com/czxlfzm0g6wf
+
 ## Bugs  
 
 * For bugs please report in issues.

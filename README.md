@@ -8,7 +8,8 @@ A workshop download tool for Wallpaper Engine.
 
 ## Dependies  
 
-* <https://github.com/oureveryday/DepotDownloaderMod>
+* [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod)
+* [.NET 8.0 Runtime](https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=8.0.0&arch=x64&rid=win10-x64)
 
 ## Usage  
 

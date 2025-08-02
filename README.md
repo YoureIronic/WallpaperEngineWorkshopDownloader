@@ -1,7 +1,5 @@
 # Wallpaper Engine Workshop Downloader
 
-[中文](README_zh.md)
-
 A workshop download tool for Wallpaper Engine.
 
 ## Functions  
@@ -22,15 +20,14 @@ A workshop download tool for Wallpaper Engine.
 Main folder
 ├── DepotDownloaderMod
 │   └── (DepotDownloaderMod files)
-├── WallpaperDownloader_en.exe
-├── WallpaperDownloader_zh.exe
+├── WallpaperDownloader.exe
 ```
 
 1. Browse the workshop item you like in <https://steamcommunity.com/app/431960/workshop/>
 
 2. Copy the URL of the workshop item you like. For example, `https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890`
 
-3. Run `WallpaperDownloader_en.exe` (English) or `WallpaperDownloader_zh.exe` (Chinese) and paste the workshop item URL into the item box.
+3. Run `WallpaperDownloader.exe` and paste the workshop item URL into the item box.
 
 4. Select the wallpaper engine file path (with folder `\projects\myprojects` included) and click the `Download` button.
 

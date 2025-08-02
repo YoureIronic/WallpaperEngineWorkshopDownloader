@@ -1,0 +1,16 @@
+{
+  "app_title": "Wallpaper Engine Workshop Downloader",
+  "select_account": "Select Account:",
+  "select_path": "Select wallpaper engine path",
+  "wallpaper_path": "Wallpaper engine path: {path}",
+  "enter_items": "Enter workshop items (one per line, support link and file id):",
+  "console_output": "Console Output:",
+  "download": "Download",
+  "error_save_location_not_set": "Error: Save location is not set correctly.\n",
+  "error_save_location_not_exist": "Error: Save location does not exist.\n",
+  "invalid_save_location": "Invalid save location: Selected directory does not contain \\projects\\myprojects\n",
+  "path_set": "Path set to {path}\n",
+  "downloading": "----------Downloading {id}--------\n",
+  "download_finished": "-------------Download finished-----------\n",
+  "invalid_link": "Invalid link: {link}\n"
+}

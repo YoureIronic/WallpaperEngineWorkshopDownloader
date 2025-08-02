@@ -35,6 +35,6 @@ This shit is like 200MB and if i embed it the file will die because buzzheavier 
 
 Video: https://buzzheavier.com/czxlfzm0g6wf
 
-## Bugs  
+## 🔧 Contributions & Issues
 
-* For bugs please report in issues.
+If you come across a new account or anything else, feel free to contribute. You can submit a pull request or open an issue for review at [our github](https://github.com/YoureIronic/WallpaperEngineWorkshopDownloader).

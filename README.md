@@ -2,10 +2,6 @@
 
 A workshop download tool for Wallpaper Engine.
 
-## Functions  
-
-* Automatically the workshop item for Wallpaper Engine without your own Steam account.
-
 ## Dependies  
 
 * [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod)

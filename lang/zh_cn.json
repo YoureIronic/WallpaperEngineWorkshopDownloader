@@ -1,11 +1,12 @@
 {
-  "app_title": "Wallpaper Engine 创意工坊下载器",
+  "app_title": "壁纸引擎创意工坊下载器",
   "select_account": "选择账户:",
   "select_path": "选择壁纸引擎路径",
   "wallpaper_path": "壁纸引擎路径：{path}",
   "enter_items": "输入创意工坊项目（每行一个，支持链接和文件ID）:",
   "console_output": "控制台输出：",
   "download": "下载",
+  "language": "语言:",
   "error_save_location_not_set": "错误：保存位置未正确设置。\n",
   "error_save_location_not_exist": "错误：保存位置不存在。\n",
   "invalid_save_location": "无效的保存位置：选定目录不包含 \\projects\\myprojects\n",

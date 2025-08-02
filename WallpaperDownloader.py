@@ -146,7 +146,7 @@ def refresh_labels():
     link_label.config(text=t("enter_items"))
     console_label.config(text=t("console_output"))
     run_button.config(text=t("download"))
-    lang_menu_label.config(text="Language:")
+    lang_menu_label.config(text=t("language"))
 
 root = tk.Tk()
 

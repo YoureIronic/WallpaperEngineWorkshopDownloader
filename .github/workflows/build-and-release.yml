@@ -1,0 +1,48 @@
+name: Build and Release EXE
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install pyinstaller
+        run: pip install pyinstaller
+
+      - name: Build EN EXE
+        run: pyinstaller --onefile --noconsole WallpaperDownloader_en.py
+
+      - name: Build ZH EXE
+        run: pyinstaller --onefile --noconsole WallpaperDownloader_zh.py
+
+      - name: Upload EN EXE as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WallpaperDownloader_en
+          path: dist/WallpaperDownloader_en.exe
+
+      - name: Upload ZH EXE as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WallpaperDownloader_zh
+          path: dist/WallpaperDownloader_zh.exe
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/WallpaperDownloader_en.exe
+            dist/WallpaperDownloader_zh.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

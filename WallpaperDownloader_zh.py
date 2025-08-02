@@ -77,13 +77,13 @@ def load_save_location():
     except FileNotFoundError:
         save_location = "未设置"
 
-accounts = {'ruiiixx': 'UzY3R0JUQjgzRDNZ',
-    'premexilmenledgconis': 'M3BYYkhaSmxEYg==',
-    'vAbuDy': 'Qm9vbHE4dmlw',
+accounts = {
+    'kuramaduellinks': 'ZGVtYWNpYW4xMjM=',
+    'Phi_Kung00': 'cGVlaW53emEwMDc=',
     'adgjl1182': 'UUVUVU85OTk5OQ==',
-    'gobjj16182': 'enVvYmlhbzgyMjI=',
-    '787109690': 'SHVjVXhZTVFpZzE1'
-    }
+    'heqxa1234567': 'QW5uZm9yZW1hbjkx',
+    'ruiiixx': 'UzY3R0JUQjgzRDNZ'
+}
 passwords = {account: base64.b64decode(accounts[account]).decode('utf-8') for account in accounts}
 
 load_save_location()
